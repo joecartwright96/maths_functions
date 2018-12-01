@@ -12,9 +12,12 @@ int divide(int a, int b) {
 int multiply(int a, int b) {
 	return a * b;
 }
+int mod(int a, int b) {
+	return a % b;
+}	
 
 int main() {
 
-	printf("answer = %i\n", add(1,3));
+	printf("answer = %i\n", mod(15,4));
 	return 0;
 }
